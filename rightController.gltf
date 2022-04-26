@@ -1,0 +1,250 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 3de52ae4ccc0c25be48106335282fae5a6a58dee",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 5939,
+            "type": "VEC3",
+            "max": [
+                0.05462269484996796,
+                0.06194591522216797,
+                0.03540803864598274
+            ],
+            "min": [
+                -0.037939947098493579,
+                -0.07262105494737625,
+                -0.07604175060987473
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 5939,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 5939,
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 5939,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5125,
+            "count": 8499,
+            "type": "SCALAR",
+            "max": [
+                5938.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 71268,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 71268,
+            "byteLength": 71268,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 142536,
+            "byteLength": 95024,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 237560,
+            "byteLength": 47512,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 285072,
+            "byteLength": 33996,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 319068,
+            "uri": "rightController_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.6000000238418579
+            },
+            "name": "shell:quest2ControllerMAT",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "right_quest2_mesh",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TANGENT": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "indices": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.4162493050098419,
+                0.27457407116889956,
+                0.5203168392181397
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "translation": [
+                -0.008341369219124318,
+                0.07262105494737625,
+                0.02031685598194599
+            ],
+            "name": "right_quest2_controller_world"
+        },
+        {
+            "translation": [
+                -0.013445800170302391,
+                -0.0009530690149404109,
+                -0.015630798414349557
+            ],
+            "name": "b_button_oculus"
+        },
+        {
+            "translation": [
+                0.0049906400963664059,
+                -0.009470630437135697,
+                0.027257198467850686
+            ],
+            "rotation": [
+                0.0,
+                -4.529796676644438e-16,
+                0.0,
+                1.0
+            ],
+            "name": "b_trigger_front"
+        },
+        {
+            "translation": [
+                -0.004948650021106005,
+                -0.035737600177526477,
+                -0.013387098908424378
+            ],
+            "name": "b_trigger_grip"
+        },
+        {
+            "translation": [
+                0.01268440019339323,
+                0.0012365400325506926,
+                0.0005357269546948373
+            ],
+            "name": "b_button_b"
+        },
+        {
+            "translation": [
+                0.005223349668085575,
+                0.0006435899995267391,
+                -0.013082900084555149
+            ],
+            "name": "b_button_a"
+        },
+        {
+            "translation": [
+                -0.009354759939014912,
+                -0.004729959648102522,
+                0.0027985998895019294
+            ],
+            "rotation": [
+                7.216449660063518e-16,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "b_thumbstick"
+        },
+        {
+            "translation": [
+                -0.008341369219124318,
+                0.07262105494737625,
+                0.02031685598194599
+            ],
+            "mesh": 0,
+            "name": "right_quest2_mesh"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                8
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
